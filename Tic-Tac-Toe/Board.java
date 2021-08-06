@@ -26,6 +26,8 @@
    */
    public Board(int width, int height)
    {
+     this.width = width;
+     this.height = height;
      boardAr = new String[height][width];
    }
    
@@ -34,13 +36,7 @@
    */
    public Board(String[][] b)
    { 
-    for (int row = 0;row < height;row++)
-    {
-     for (int column = 0; column < width; column++)
-     {
-       boardAr[row][column] = "-";
-     }
-    }
+    boardAr = b;
    }
    
    /**
