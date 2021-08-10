@@ -1,6 +1,6 @@
 //Project Runner 
 import java.util.Scanner;
-public class UserRights 
+public class main
 {
  public static double sum(double wine, double car)
  {
