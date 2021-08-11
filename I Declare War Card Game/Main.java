@@ -4,7 +4,7 @@ import java.util.Scanner;
     Sahar Maisha
     Josh Lim
    */
-public class DeckP2
+public class Main
 {
  private static ArrayList<Card> deck;
  private static int size;
