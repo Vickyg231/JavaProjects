@@ -21,13 +21,13 @@ public class Main
   //The values of the card
   private static final int[] pointValue = {1,2,3,4,5,6,7,8,9,10,11,12,13}; 
   
-   public DeckP2()
+   public Main()
   {
    deck = new ArrayList<>();
    size = 0;
   } 
 
-  public DeckP2(String[] ranks,String[] suits,int[] values)
+  public Main(String[] ranks,String[] suits,int[] values)
   {
    deck = new ArrayList<>();
    size = 0;
@@ -95,9 +95,9 @@ public class Main
       
   public static void main(String[] args)
   {
-   DeckP2 players = new DeckP2();
-   DeckP2 computer = new DeckP2();
-   DeckP2 D1 = new DeckP2(ranks,suits,pointValue);
+   Main players = new Main();
+   Main computer = new Main();
+   Main D1 = new Main(ranks,suits,pointValue);
    D1.shuffle();
    for(int i = 51;i>=26;i--)
    {
@@ -212,4 +212,3 @@ public class Main
    } 
   }   
 }
- 
